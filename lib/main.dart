@@ -33,10 +33,11 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Demo Home Page'),
+          title: const Text('Hola Danniel!'), // barra superior
         ),
         body: const Center(
           child: Text(
+            // propiedad de center
             'Hello, World!',
             style: TextStyle(fontSize: 24),
           ),
